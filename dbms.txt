@@ -1,0 +1,1 @@
+today I have learned the concepts of differences between file systems and database management systems and also learned the keys concept which have primary key , super key and candidate key where I also learned about functional dependency concept 
