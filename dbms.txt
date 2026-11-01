@@ -1,1 +1,56 @@
-today I have learned the concepts of differences between file systems and database management systems and also learned the keys concept which have primary key , super key and candidate key where I also learned about functional dependency concept 
+today I have learned the concepts of differences between file systems and database management systems and also learned the keys concept which have primary key , super key and candidate key where I also learned about functional dependency concept.
+
+
+# DBMS – Functional Dependency
+
+## What is Functional Dependency?
+Functional Dependency (FD) is a relationship between attributes in a table where one attribute or a set of attributes determines another attribute.
+
+It is represented as:
+X → Y
+
+Here:
+- X is called the Determinant.
+- Y is the Dependent attribute.
+- X determines the value of Y.
+
+## Example
+Consider a Student table:
+
+ Student_ID | Student_Name | Department |
+---|---|---|
+| 101 | Ravi | CSE |
+| 102 | Priya | ECE |
+| 103 | Arun | CSE |
+
+Functional dependencies:
+- Student_ID → Student_Name
+- Student_ID → Department
+
+This means Student_ID uniquely determines the student's name and department.
+
+## Types of Functional Dependencies
+
+1. **Trivial Functional Dependency:** Y is a subset of X.
+   Example: {Student_ID, Student_Name} → Student_Name
+
+2. **Non-Trivial Functional Dependency:** Y is not a subset of X.
+   Example: Student_ID → Student_Name
+
+3. **Full Functional Dependency:** An attribute depends on the entire composite key, not just part of it.
+
+4. **Partial Functional Dependency:** An attribute depends on only part of a composite key.
+
+5. **Transitive Functional Dependency:** An attribute depends on another attribute through an intermediate attribute.
+   Example: Student_ID → Department_ID and Department_ID → Department_Name. Therefore, Student_ID → Department_Name.
+
+## Why is Functional Dependency Important?
+- Helps in database normalization.
+- Reduces data redundancy.
+- Prevents insertion, update, and deletion anomalies.
+- Helps identify keys and relationships between attributes.
+
+## Summary
+Functional Dependency describes how one attribute or a group of attributes determines another attribute in a database table.
+
+Notation: X → Y
