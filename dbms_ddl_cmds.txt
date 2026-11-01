@@ -1,0 +1,52 @@
+# SQL - Data Definition Language (DDL)
+
+## What is DDL?
+DDL stands for Data Definition Language. It is used to define and modify the structure of database objects, such as tables.
+
+## 1. CREATE
+Used to create a new database or table.
+
+Example:
+CREATE TABLE Students (
+    StudentID INT,
+    Name VARCHAR(50),
+    Age INT
+);
+
+## 2. ALTER
+Used to modify the structure of an existing table.
+
+Example:
+ALTER TABLE Students ADD Email VARCHAR(100);
+
+## 3. DROP
+Used to permanently remove a database object, such as a table.
+
+Example:
+DROP TABLE Students;
+
+## 4. TRUNCATE
+Used to remove all rows from a table while keeping its structure.
+
+Example:
+TRUNCATE TABLE Students;
+
+## 5. RENAME
+Used to rename a database object. The exact syntax depends on the database system.
+
+Example (MySQL):
+RENAME TABLE Students TO StudentDetails;
+
+## Important Points
+- DDL stands for Data Definition Language.
+- CREATE creates database objects.
+- ALTER modifies the structure of database objects.
+- DROP removes database objects.
+- TRUNCATE removes all rows but keeps the table structure.
+- RENAME changes the name of a database object.
+- DDL commands generally cause implicit commits in many database systems, but behavior varies by database.
+
+## Today's Learning
+Topic: SQL - Data Definition Language (DDL)
+
+Goal: Understand the basic DDL commands and their uses.
