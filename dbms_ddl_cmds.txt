@@ -96,4 +96,4 @@ Remember:
 - UPDATE → Change data
 - DELETE → Remove data
 - SELECT → View data
-Important: Always use a WHERE clause with UPDATE and DELETE when you want to affect only specific rows. Without it, the command can modify or delete all rows in the table.
+Important: Always use a WHERE clause with UPDATE and DELETE when you want to affect only specific rows. Without it, the command can modify or delete all rows in the table.i have also learned about how the operations are performed on data bases using sql queries which plays a key role in updating the data bases
