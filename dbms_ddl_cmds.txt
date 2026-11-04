@@ -13,31 +13,31 @@ CREATE TABLE Students (
     Age INT
 );
 
-## 2. ALTER
+2. ALTER
 Used to modify the structure of an existing table.
 
 Example:
 ALTER TABLE Students ADD Email VARCHAR(100);
 
-## 3. DROP
+3. DROP
 Used to permanently remove a database object, such as a table.
 
 Example:
 DROP TABLE Students;
 
-## 4. TRUNCATE
+4. TRUNCATE
 Used to remove all rows from a table while keeping its structure.
 
 Example:
 TRUNCATE TABLE Students;
 
-## 5. RENAME
+5. RENAME
 Used to rename a database object. The exact syntax depends on the database system.
 
 Example (MySQL):
 RENAME TABLE Students TO StudentDetails;
 
-## Important Points
+Important Points
 - DDL stands for Data Definition Language.
 - CREATE creates database objects.
 - ALTER modifies the structure of database objects.
@@ -98,7 +98,7 @@ Remember:
 - SELECT → View data
 Important: Always use a WHERE clause with UPDATE and DELETE when you want to affect only specific rows. Without it, the command can modify or delete all rows in the table.i have also learned about how the operations are performed on data bases using sql queries which plays a key role in updating the data bases
 
-4.DCL - Data Control Language
+DCL - Data Control Language
 DCL (Data Control Language) includes commands such as GRANT and REVOKE which mainly deal with the rights, permissions and other controls of the database system. These commands are used to control access to data in the database by granting or revoking permissions.
 commands 
 1.Grant
@@ -106,7 +106,11 @@ commands
 
 04-11-2026
 
+Group by clause : 
 
+The GROUP BY clause in SQL is used to group rows that have the same values in a particular column. It is mainly used with aggregate functions like COUNT(), SUM(), AVG(), MAX(), and MIN() to calculate results category-wise.
+
+Imagine an online shopping application that sells products in different categories, such as Electronics and Clothing. The company wants to calculate the total product price in each category. We use GROUP BY to group products category-wise and SUM() to calculate the total.
 
 
 
