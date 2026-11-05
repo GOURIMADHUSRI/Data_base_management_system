@@ -112,6 +112,9 @@ The GROUP BY clause in SQL is used to group rows that have the same values in a 
 
 Imagine an online shopping application that sells products in different categories, such as Electronics and Clothing. The company wants to calculate the total product price in each category. We use GROUP BY to group products category-wise and SUM() to calculate the total.
 
+05-11-2005
+
+today I have learned about the basic fundamental operations which are related to GitHub 
 
 
 
