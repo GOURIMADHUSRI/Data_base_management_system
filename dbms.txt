@@ -54,3 +54,5 @@ This means Student_ID uniquely determines the student's name and department.
 Functional Dependency describes how one attribute or a group of attributes determines another attribute in a database table.
 
 Notation: X → Y
+
+today I will learn a new topic
