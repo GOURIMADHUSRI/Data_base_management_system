@@ -56,3 +56,11 @@ Functional Dependency describes how one attribute or a group of attributes deter
 Notation: X → Y
 
 today I will learn a new topic
+
+A human readable data serialisation concept that is 
+where devops engineers are not good programmers and to make it into an easy readable , we can add comments in YAML 
+
+YAML 
+1.learn how to write key value pairs 
+2.how to write list in YAML
+3.
